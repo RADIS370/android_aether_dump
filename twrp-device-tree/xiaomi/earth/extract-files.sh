@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=earth
+DEVICE=aether
 VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks
