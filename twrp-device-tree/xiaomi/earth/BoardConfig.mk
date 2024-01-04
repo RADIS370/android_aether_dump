@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/earth
+DEVICE_PATH := device/xiaomi/aether
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -158,6 +158,7 @@ TW_Y_OFFSET := 60
 TW_H_OFFSET := -60
 TW_INTERNAL_STORAGE_PATH := "/data/media/0"
 TW_EXCLUDE_ENCRYPTED_BACKUPS := false
+TW_HAS_RECOVERY_PARTITION := false
 
 # DEVICE
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
